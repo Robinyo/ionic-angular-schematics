@@ -1,7 +1,7 @@
 {
-  "name": "ionic-starter",
+  "name": "ionic-schematics",
   "description": "Schematics for Ionic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "name": "Rob Ferguson",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Robinyo/big-top"
+    "url": "https://github.com/Robinyo/ionic-schematics.git"
   },
   "bugs": {
-    "url": "https://github.com/Robinyo/big-top/issues"
+    "url": "https://github.com/Robinyo/ionic-schematics/issues"
   },
   "keywords": [
     "schematics"
