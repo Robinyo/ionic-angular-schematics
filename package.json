@@ -1,6 +1,6 @@
 {
   "name": "@ionic-angular/schematics",
-  "description": "Schematics for Ionic",
+  "description": "Schematics for Ionic Angular",
   "version": "0.0.3",
   "license": "MIT",
   "author": {
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Robinyo/ionic-schematics.git"
+    "url": "https://github.com/Robinyo/ionic-angular-schematics.git.git"
   },
   "bugs": {
-    "url": "https://github.com/Robinyo/ionic-schematics/issues"
+    "url": "https://github.com/Robinyo/ionic-angular-schematics.git/issues"
   },
   "keywords": [
     "schematics"
