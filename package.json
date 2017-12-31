@@ -1,7 +1,7 @@
 {
-  "name": "ionic-schematics",
+  "name": "@ionic-angular/schematics",
   "description": "Schematics for Ionic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": {
     "name": "Rob Ferguson",
