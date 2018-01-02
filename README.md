@@ -10,6 +10,10 @@
 ## Goals
 - A standardised Ionic project structure
 
+  What the Angular Style guide describes in 
+[Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
+
+
 ```bash
     ├── <PROJECT_ROOT>
         └── /src
@@ -44,9 +48,6 @@
         ├── tsconfig.json
         ├── tslint.json             
 ```
-
-  What the Angular Style guide describes in 
-[Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
 
 - [Code scaffolding](#generating-pages-and-services)
 - [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
