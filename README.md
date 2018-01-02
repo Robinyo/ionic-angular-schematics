@@ -2,43 +2,13 @@
 
 ## Table of Contents
 
-* [Installation](#installation)
 * [Goals](#goals)
+* [Installation](#installation)
 * [Generating a New Project](#generating-and-serving-an-ionic-project-via-a-development-server)
 * [Generating Pages and Services](#generating-pages-and-services)
 
-### Prerequisites
-
-Install Schematics globally using npm:
-
-```bash
-npm install -g @angular-devkit/core
-npm install -g @angular-devkit/schematics
-npm install -g @schematics/schematics
-npm install -g rxjs
-```
-
-Install the Angular CLI globally using npm:
-```bash
-npm install -g @angular/cli
-```
-
-## Installation
-
-To install @ionic-angular/schematics globally using npm:
-
-```bash
-npm install -g @ionic-angular/schematics
-```
-
-To add @ionic-angular/schematics to a project using npm:
-
-```bash
-npm install @ionic-angular/schematics --save-dev
-```
-
 ## Goals
-- A standardised project structure: What the Angular Style guide describes in 
+- A standardised Ionic project structure: What the Angular Style guide describes in 
 [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
 
 ```bash
@@ -84,6 +54,39 @@ npm install @ionic-angular/schematics --save-dev
 - Baked in best practices that have been discovered by the community over time
 
 See: https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/
+
+
+## Installation
+
+### Prerequisites
+
+Install Schematics globally using npm:
+
+```bash
+npm install -g @angular-devkit/core
+npm install -g @angular-devkit/schematics
+npm install -g @schematics/schematics
+npm install -g rxjs
+```
+
+Install the Angular CLI globally using npm:
+```bash
+npm install -g @angular/cli
+```
+
+### Install @ionic-angular/schematics
+
+To install @ionic-angular/schematics globally using npm:
+
+```bash
+npm install -g @ionic-angular/schematics
+```
+
+To add @ionic-angular/schematics to a project using npm:
+
+```bash
+npm install @ionic-angular/schematics --save-dev
+```
 
 ### Generating and serving an Ionic project via a development server
  
