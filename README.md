@@ -45,7 +45,7 @@
         ├── tsconfig.json
         ├── tslint.json             
 ```
-- Code scaffolding
+- [Code scaffolding](#generating-pages-and-services)
 - [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
 - [Environment specific configuration](https://github.com/Robinyo/big-top#aliases-and-environment-specific-variables)
 - [Dynamic Themes](https://robferguson.org/blog/2017/11/12/theming-your-ionic-3-app/)
