@@ -91,8 +91,6 @@ ng g page --collection=@ionic-angular/schematics my-new-page # using the alias
 }
 ```
 
-@ionic-angular/schematics will add a reference to `pages` in your project's `app.module.ts` file.
-
 You can find all possible blueprints in the table below:
 
 Scaffold  | Usage
@@ -100,4 +98,4 @@ Scaffold  | Usage
 Page | `ng g page my-new-page`
 Service | TODO
 
-
+@ionic-angular/schematics will add a reference to `pages` in your project's `app.module.ts` file.
