@@ -80,7 +80,18 @@ ng generate page --collection=@ionic-angular/schematics my-new-page
 ng g page --collection=@ionic-angular/schematics my-new-page # using the alias
 ```
 
-@ionic-angular/schematics will add a reference to `pages` automatically in the `app.module.ts` file.
+**Note:** Add the following to your project's `.angular-cli.json` to define a default collection:
+
+```json
+"defaults": {
+  "schematics": {
+    "collection": "@ionic-angular/schematics"
+  },
+  ...
+}
+```
+
+@ionic-angular/schematics will add a reference to `pages` in your project's `app.module.ts` file.
 
 You can find all possible blueprints in the table below:
 
