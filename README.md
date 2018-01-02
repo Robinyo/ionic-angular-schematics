@@ -10,9 +10,7 @@
 ## Goals
 - A standardised Ionic project structure
 
-  What the Angular Style guide describes in 
-[Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
-
+  Aligned with the Angular Style guide's [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
 
 ```bash
     ├── <PROJECT_ROOT>
