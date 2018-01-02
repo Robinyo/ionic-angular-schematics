@@ -1,13 +1,13 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "id": "SchematicsIonicPage",
-  "title": "Ionic Page Options Schema",
+  "id": "SchematicsAngularComponent",
+  "title": "Angular Component Options Schema",
   "type": "object",
   "properties": {
     "path": {
       "type": "string",
-      "description": "The path to create the page.",
-      "default": "app/pages",
+      "description": "The path to create the component.",
+      "default": "app",
       "visible": false
     },
     "sourceDir": {
@@ -24,7 +24,7 @@
     },
     "name": {
       "type": "string",
-      "description": "The name of the page."
+      "description": "The name of the component."
     },
     "inlineStyle": {
       "description": "Specifies if the style will be in the ts file.",
@@ -54,18 +54,18 @@
     "prefix": {
       "type": "string",
       "description": "The prefix to apply to generated selectors.",
-      "default": "page",
+      "default": "app",
       "alias": "p"
     },
     "styleext": {
       "description": "The file extension to be used for style files.",
       "type": "string",
-      "default": "scss"
+      "default": "css"
     },
     "spec": {
       "type": "boolean",
       "description": "Specifies if a spec file is generated.",
-      "default": false
+      "default": true
     },
     "flat": {
       "type": "boolean",

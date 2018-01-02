@@ -24,12 +24,15 @@
     "test": "npm run build && jasmine **/*_spec.js"
   },
   "devDependencies": {
+    "@angular/core": "5.0.3",
     "@angular-devkit/core": "^0.0.22",
     "@angular-devkit/schematics": "^0.0.42",
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.31",
+    "ionic-angular": "3.9.2",
     "jasmine": "^2.8.0",
     "rxjs": "^5.5.6",
-    "typescript": "^2.5.2"
+    "typescript": "^2.5.2",
+    "zone.js": "0.8.18"
   }
 }

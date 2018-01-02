@@ -6,6 +6,12 @@
       "description": "Create an Ionic application.",
       "schema": "./application/schema.json"
     },
+    "component": {
+      "aliases": [ "c" ],
+      "factory": "./component",
+      "description": "Create a component.",
+      "schema": "./component/schema.json"
+    },
     "page": {
       "aliases": [ "p" ],
       "factory": "./page",
