@@ -37,19 +37,8 @@ To add @ionic-angular/schematics to a project using npm:
 npm install @ionic-angular/schematics --save-dev
 ```
 
-**Note:** Add the following to your project's `.angular-cli.json` to define a default collection:
-
-```json
-"defaults": {
-  "schematics": {
-    "collection": "@ionic-angular/schematics"
-  },
-  ...
-}
-```
-
 ## Goals
-- A standardised project structure: What the Angular Style guide discribes in the 
+- A standardised project structure: What the Angular Style guide describes in 
 [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
 
 ```bash
