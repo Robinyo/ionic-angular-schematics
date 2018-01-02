@@ -101,7 +101,11 @@ You can use the `ng new` command to generate a new Ionic project:
 ng new --collection=@ionic-angular/schematics my-app
 ```
 
-See: https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/
+Note: There is currently an issue with Schematics use of `require.resolve()` however there is a known 
+[workaround](https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/).
+
+
+See: 
 
 ### Generating Pages and Services
 
