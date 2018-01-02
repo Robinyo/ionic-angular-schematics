@@ -1,7 +1,7 @@
 {
   "name": "@ionic-angular/schematics",
   "description": "Schematics for Ionic Angular",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "author": {
     "name": "Rob Ferguson",
@@ -18,7 +18,7 @@
   "keywords": [
     "schematics"
   ],
-  "schematics": "./angular/collection.json",
+  "schematics": "./src/collection.json",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine **/*_spec.js"
