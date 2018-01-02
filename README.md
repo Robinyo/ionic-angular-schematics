@@ -3,6 +3,7 @@
 ## Table of Contents
 
 * [Installation](#installation)
+* [Goals](#goals)
 * [Generating a New Project](#generating-and-serving-an-ionic-project-via-a-development-server)
 * [Generating Pages and Services](#generating-pages-and-services)
 
@@ -46,6 +47,54 @@ npm install @ionic-angular/schematics --save-dev
   ...
 }
 ```
+
+## Goals
+- A standardised project structure: What the Angular Style guide discribes in the 
+[Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
+
+```bash
+    ├── <PROJECT_ROOT>
+        └── /src
+            └── /app                  - App Module 
+                ├── app.component.ts
+                ├── app.html
+                ├── app.module.ts
+                ├── app.scss
+                ├── main.ts
+                └── /core             - Core Module
+                └── /pages            - Feature Modules
+                    └── /home        
+
+                └── /shared           - Shared Module
+            └── /assets
+            └── /theme          
+            ├── index.html
+            ├── manifest.json
+            ├── service-worker.js
+        └── /resources
+        └── /www
+            └── /assets
+            └── /build   
+            ├── index.html
+            ├── manifest.json
+            ├── service-worker.js
+        ├── .editorconfig
+        ├── .gitignore
+        ├── config.xml
+        ├── ionic.config.json      
+        ├── package.json
+        ├── tsconfig.json
+        ├── tslint.json             
+```
+- Code scaffolding
+- [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
+- [Environment specific configuration](https://github.com/Robinyo/big-top#aliases-and-environment-specific-variables)
+- [Dynamic Themes](https://robferguson.org/blog/2017/11/12/theming-your-ionic-3-app/)
+- [Logging](https://robferguson.org/blog/2017/09/09/a-simple-logging-service-for-angular-4/)
+- [Unit and E2E Testing](https://robferguson.org/blog/2017/11/28/testing-your-ionic-3-app/)
+- Baked in best practices that have been discovered by the community over time
+
+See: https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/
 
 ### Generating and serving an Ionic project via a development server
  
