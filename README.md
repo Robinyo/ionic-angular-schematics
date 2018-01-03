@@ -149,7 +149,13 @@ You can find all possible blueprints in the table below:
 
 Scaffold  | Usage
 ---       | ---
+Component | TODO
+Directive | TODO
 Page | `ng g page my-new-page`
+Pipe | TODO
 Service | TODO
+Interface | TODO
+Enum | TODO
+Module | TODO
 
 @ionic-angular/schematics will add a reference to your generated `component` in your project's `app.module.ts` file.
