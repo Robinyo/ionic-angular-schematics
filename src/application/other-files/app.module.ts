@@ -1,31 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { StatusBar } from '@ionic-native/status-bar';
-
-import { MyApp } from './app.component';
-import { HomePage } from './pages/home/home.page';
+import { NgModule } from '@angular/core';
+<% if (routing) { %>
+import { AppRoutingModule } from './app-routing.module';<% } %>
+<% if (serviceWorker) { %>
+import { ServiceWorkerModule } from '@angular/service-worker';<% } %>
+import { AppComponent } from './app.component';
+<% if (serviceWorker) { %>
+import { environment } from '../environments/environment';<% } %>
 
 @NgModule({
   declarations: [
-    MyApp,
-    HomePage
+    AppComponent
   ],
   imports: [
-    BrowserModule,
-    IonicModule.forRoot(MyApp)
+    BrowserModule<% if (routing) { %>,
+    AppRoutingModule<% } %><% if (serviceWorker) { %>,
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })<% } %>
   ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    HomePage
-  ],
-  providers: [
-    StatusBar,
-    SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
-  ]
+  providers: [],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
-
+export class AppModule { }
