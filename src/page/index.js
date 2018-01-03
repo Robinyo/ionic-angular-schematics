@@ -30,9 +30,9 @@ function addDeclarationToNgModule(options) {
         const componentPath = `/${options.sourceDir}/${options.path}/`
             + (options.flat ? '' : stringUtils.dasherize(options.name) + '/')
             + stringUtils.dasherize(options.name)
-            + '.component';
+            + '.page';
         const relativePath = find_module_1.buildRelativePath(modulePath, componentPath);
-        const classifiedName = stringUtils.classify(`${options.name}Component`);
+        const classifiedName = stringUtils.classify(`${options.name}Page`);
         const declarationChanges = ast_utils_1.addDeclarationToModule(source, modulePath, classifiedName, relativePath);
         const declarationRecorder = host.beginUpdate(modulePath);
         for (const change of declarationChanges) {
@@ -50,7 +50,7 @@ function addDeclarationToNgModule(options) {
             const sourceText = text.toString('utf-8');
             const source = ts.createSourceFile(modulePath, sourceText, ts.ScriptTarget.Latest, true);
             const exportRecorder = host.beginUpdate(modulePath);
-            const exportChanges = ast_utils_1.addExportToModule(source, modulePath, stringUtils.classify(`${options.name}Component`), relativePath);
+            const exportChanges = ast_utils_1.addExportToModule(source, modulePath, stringUtils.classify(`${options.name}Page`), relativePath);
             for (const change of exportChanges) {
                 if (change instanceof change_1.InsertChange) {
                     exportRecorder.insertLeft(change.pos, change.toAdd);

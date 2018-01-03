@@ -109,9 +109,6 @@ ng new --collection=@ionic-angular/schematics my-app
 Note: There is currently an issue with Schematics use of `require.resolve()` however there is a known 
 [workaround](https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/).
 
-
-See: 
-
 ### Generating Pages and Services
 
 You can use the Schematics CLI to generate Ionic components:
@@ -138,6 +135,12 @@ ng g page --collection=@ionic-angular/schematics my-new-page # using the alias
 }
 ```
 
+And, add the Angular CLI as a `devDependencies`:
+
+```bash
+npm install --save-dev @angular/cli@latest
+```
+
 You can find all possible blueprints in the table below:
 
 Scaffold  | Usage
@@ -145,4 +148,4 @@ Scaffold  | Usage
 Page | `ng g page my-new-page`
 Service | TODO
 
-@ionic-angular/schematics will add a reference to `pages` in your project's `app.module.ts` file.
+@ionic-angular/schematics will add a reference to your generated `component` in your project's `app.module.ts` file.
