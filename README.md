@@ -150,7 +150,7 @@ To define a default collection (locally) add the following to your project's `.a
 }
 ```
 
-And, add the Angular CLI as a `devDependencies`:
+You also need to add the Angular CLI to your project's `devDependencies`:
 
 ```bash
 npm install --save-dev @angular/cli@latest
