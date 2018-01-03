@@ -115,13 +115,13 @@ Note: There is currently an issue with Schematics use of `require.resolve()` how
 
 ### Generating Pages and Services
 
-You can use the Schematics CLI to generate Ionic components:
+You can use the Schematics CLI to generate Ionic pages:
 
 ```bash
 schematics @ionic-angular/schematics:page --name my-new-page
 ```
 
-You can use the `ng generate` (or just `ng g`) command to generate Ionic components:
+You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 
 ```bash
 ng generate page --collection=@ionic-angular/schematics my-new-page
