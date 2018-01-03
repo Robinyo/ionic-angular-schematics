@@ -42,5 +42,5 @@
     "code generation",
     "schematics"
   ],
-  "schematics": "./src/collection.json"
+  "schematics": "./schematics/collection.json"
 }
