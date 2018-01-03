@@ -110,7 +110,7 @@ You can use the `ng new` command to generate a new Ionic project:
 ng new --collection=@ionic-angular/schematics my-app
 ```
 
-Note: There is currently an issue with Schematics use of `require.resolve()` however there is a known 
+**Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known 
 [workaround](https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/).
 
 ### Generating Pages and Services
@@ -121,7 +121,7 @@ You can use the Schematics CLI to generate Ionic pages:
 schematics @ionic-angular/schematics:page --name my-new-page
 ```
 
-**Note:**  @ionic-angular/schematics will add a reference to your generated `page` in your project's `app.module.ts` file.
+**Note:** @ionic-angular/schematics will add a reference to your generated `page` in your project's `app.module.ts` file.
 
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 
