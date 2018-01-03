@@ -119,8 +119,7 @@ To define a default collection (globally):
 ng set defaults.schematics.collection @ionic-angular/schematics --global
 ```
 
-**Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known 
-[workaround](https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/):
+**Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known workaround:
 
 ```bash
 cd /usr/local/lib/node_modules/@angular/cli/node_modules
