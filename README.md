@@ -121,6 +121,8 @@ You can use the Schematics CLI to generate Ionic pages:
 schematics @ionic-angular/schematics:page --name my-new-page
 ```
 
+**Note:**  @ionic-angular/schematics will add a reference to your generated `page` in your project's `app.module.ts` file.
+
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 
 ```bash
@@ -158,4 +160,4 @@ Interface | TODO
 Enum | TODO
 Module | TODO
 
-@ionic-angular/schematics will add a reference to your generated `component` in your project's `app.module.ts` file.
+
