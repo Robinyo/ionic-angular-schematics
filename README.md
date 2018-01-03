@@ -109,6 +109,12 @@ You can use the `ng new` command to generate a new Ionic project:
 ng new --collection=@ionic-angular/schematics my-app --skip-install
 ```
 
+To define a default collection (globally):
+
+```bash
+ng set defaults.schematics.collection @ionic-angular/schematics --global
+```
+
 **Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known 
 [workaround](https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/).
 
