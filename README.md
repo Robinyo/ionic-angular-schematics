@@ -137,6 +137,7 @@ You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 ```bash
 ng generate page --collection=@ionic-angular/schematics my-new-page
 ng g page --collection=@ionic-angular/schematics my-new-page # using the alias
+ng g page my-new-page # if @ionic-angular/schematics is the default collection
 ```
 
 **Note:** Add the following to your project's `.angular-cli.json` to define a default collection:
