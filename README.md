@@ -120,7 +120,13 @@ ng set defaults.schematics.collection @ionic-angular/schematics --global
 ```
 
 **Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known 
-[workaround](https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/).
+[workaround](https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/):
+
+```bash
+cd /usr/local/lib/node_modules/@angular/cli/node_modules
+mkdir @ionic-angular
+cp -R /usr/local/lib/node_modules/@ionic-angular/* @ionic-angular/
+```
 
 ### Generating Pages and Services
 
