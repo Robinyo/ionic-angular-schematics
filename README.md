@@ -87,10 +87,40 @@ To install @ionic-angular/schematics globally using npm:
 npm install -g @ionic-angular/schematics
 ```
 
+To define a default collection (globally):
+
+```bash
+ng set defaults.schematics.collection @ionic-angular/schematics --global
+```
+
+**Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known workaround:
+
+```bash
+cd /usr/local/lib/node_modules/@angular/cli/node_modules
+mkdir @ionic-angular
+cp -R /usr/local/lib/node_modules/@ionic-angular/* @ionic-angular/
+```
+
 To add @ionic-angular/schematics to a project using npm:
 
 ```bash
 npm install @ionic-angular/schematics --save-dev
+```
+
+To define a default collection (locally) add the following to your project's `.angular-cli.json`:
+
+```json
+"defaults": {
+  "schematics": {
+    "collection": "@ionic-angular/schematics"
+  }
+}
+```
+
+You also need to add the Angular CLI to your project's `devDependencies`:
+
+```bash
+npm install --save-dev @angular/cli@latest
 ```
 
 ### Generating and serving an Ionic project
@@ -113,20 +143,6 @@ npm install
 ionic serve
 ```
 
-To define a default collection (globally):
-
-```bash
-ng set defaults.schematics.collection @ionic-angular/schematics --global
-```
-
-**Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known workaround:
-
-```bash
-cd /usr/local/lib/node_modules/@angular/cli/node_modules
-mkdir @ionic-angular
-cp -R /usr/local/lib/node_modules/@ionic-angular/* @ionic-angular/
-```
-
 ### Generating Pages and Services
 
 You can use the Schematics CLI to generate Ionic pages:
@@ -143,22 +159,6 @@ You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 ng generate page --collection=@ionic-angular/schematics my-new-page
 ng g page --collection=@ionic-angular/schematics my-new-page # using the alias
 ng g page my-new-page # if @ionic-angular/schematics is the default collection
-```
-
-To define a default collection (locally) add the following to your project's `.angular-cli.json`:
-
-```json
-"defaults": {
-  "schematics": {
-    "collection": "@ionic-angular/schematics"
-  }
-}
-```
-
-You also need to add the Angular CLI to your project's `devDependencies`:
-
-```bash
-npm install --save-dev @angular/cli@latest
 ```
 
 You can find all possible blueprints in the table below:
