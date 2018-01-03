@@ -6,11 +6,29 @@
       "description": "Create an Ionic application.",
       "schema": "./application/schema.json"
     },
+    "class": {
+      "aliases": [ "cl" ],
+      "factory": "./class",
+      "description": "Create a class.",
+      "schema": "./class/schema.json"
+    },
+    "component": {
+      "aliases": [ "c" ],
+      "factory": "./component",
+      "description": "Create an Angular component.",
+      "schema": "./component/schema.json"
+    },
     "page": {
       "aliases": [ "p" ],
       "factory": "./page",
       "description": "Create a page.",
       "schema": "./page/schema.json"
+    },
+    "module": {
+      "aliases": [ "m" ],
+      "factory": "./module",
+      "description": "Create an Angular module.",
+      "schema": "./module/schema.json"
     }
   }
 }
