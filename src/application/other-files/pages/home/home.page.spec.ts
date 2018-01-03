@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { <%= classify(name) %>Page } from './<%= dasherize(name) %>.page';
+import { HomePage } from './home.page';
 
-describe('<%= classify(name) %>Page', () => {
-  let component: <%= classify(name) %>Page;
-  let fixture: ComponentFixture<<%= classify(name) %>Page>;
+describe('HomePage', () => {
+  let component: HomePage;
+  let fixture: ComponentFixture<HomePage>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ <%= classify(name) %>Page ]
+      declarations: [ HomePage ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(<%= classify(name) %>Page);
+    fixture = TestBed.createComponent(HomePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

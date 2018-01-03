@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
+// @IonicPage()
 @Component({
-  selector: '<%= selector %>',
-  templateUrl: './<%= dasherize(name) %>.page.html'
+  selector: 'page-home',
+  templateUrl: './home.page.html'
 })
-export class <%= classify(name) %>Page {
+export class HomePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
 
