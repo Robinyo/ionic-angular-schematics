@@ -136,8 +136,7 @@ ng g page --collection=@ionic-angular/schematics my-new-page # using the alias
 "defaults": {
   "schematics": {
     "collection": "@ionic-angular/schematics"
-  },
-  ...
+  }
 }
 ```
 
