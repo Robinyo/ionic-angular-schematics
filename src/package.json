@@ -15,10 +15,6 @@
   "bugs": {
     "url": "https://github.com/Robinyo/ionic-angular-schematics.git/issues"
   },
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "test": "npm run build && jasmine **/*_spec.js"
-  },
   "dependencies": {},
   "peerDependencies": {
     "@angular-devkit/schematics": "^0.0.42"

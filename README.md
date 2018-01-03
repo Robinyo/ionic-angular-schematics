@@ -4,7 +4,7 @@
 
 * [Goals](#goals)
 * [Installation](#installation)
-* [Generating a New Project](#generating-and-serving-an-ionic-project-via-a-development-server)
+* [Generating a New Project](#generating-and-serving-an-ionic-project)
 * [Generating Pages and Services](#generating-pages-and-services)
 
 ## Goals
@@ -61,7 +61,6 @@
 
 See: https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/
 
-
 ## Installation
 
 ### Prerequisites
@@ -94,7 +93,7 @@ To add @ionic-angular/schematics to a project using npm:
 npm install @ionic-angular/schematics --save-dev
 ```
 
-### Generating and serving an Ionic project via a development server
+### Generating and serving an Ionic project
  
 You can use the Schematics CLI to generate a new Ionic project:
  
@@ -107,7 +106,7 @@ ionic serve
 You can use the `ng new` command to generate a new Ionic project:
 
 ```bash
-ng new --collection=@ionic-angular/schematics MyApp
+ng new --collection=@ionic-angular/schematics my-app --skip-install
 ```
 
 **Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known 
