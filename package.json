@@ -1,7 +1,7 @@
 {
   "name": "@ionic-angular/schematics",
   "description": "Schematics for Ionic Angular",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "MIT",
   "author": {
     "name": "Rob Ferguson",
@@ -19,15 +19,13 @@
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine **/*_spec.js"
   },
-  "bundleDependencies": false,
-  "dependencies": {
-    "@angular-devkit/core": "^0.0.22"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@angular-devkit/schematics": "^0.0.42"
   },
   "devDependencies": {
     "@angular/core": "5.0.3",
+    "@angular-devkit/core": "^0.0.22",
     "@schematics/schematics": "0.0.11",
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.31",
