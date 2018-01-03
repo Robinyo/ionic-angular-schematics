@@ -100,6 +100,7 @@ You can use the Schematics CLI to generate a new Ionic project:
 ```bash
 schematics @ionic-angular/schematics:application --directory my-app --name MyApp
 cd my-app
+npm install
 ionic serve
 ```
 
@@ -107,6 +108,9 @@ You can use the `ng new` command to generate a new Ionic project:
 
 ```bash
 ng new --collection=@ionic-angular/schematics my-app --skip-install
+cd my-app
+npm install
+ionic serve
 ```
 
 To define a default collection (globally):
