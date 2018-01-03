@@ -15,19 +15,23 @@
 ```bash
     ├── <PROJECT_ROOT>
         └── /src
-            └── /app                  - App Module 
+            └── /app                           - App Module 
                 ├── app.component.ts
                 ├── app.html
                 ├── app.module.ts
                 ├── app.scss
                 ├── main.ts
-                └── /core             - Core Module
-                └── /pages            - Feature Modules
-                    └── /home        
-
-                └── /shared           - Shared Module
+                └── /core                      - Core Module
+                └── /pages                     - Feature Modules
+                    └── /home
+                        ├── home.page.html
+                        ├── home.page.scss   
+                        ├── home.page.spec.ts
+                        ├── home.page.ts                                                                     
+                └── /shared                    - Shared Module
             └── /assets
-            └── /theme          
+            └── /theme
+                ├── variables.scss     
             ├── index.html
             ├── manifest.json
             ├── service-worker.js
