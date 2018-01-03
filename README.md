@@ -149,6 +149,7 @@ You can find all possible blueprints in the table below:
 
 Scaffold  | Usage
 ---       | ---
+Class | TODO
 Component | TODO
 Directive | TODO
 Page | `ng g page my-new-page`
