@@ -1,7 +1,7 @@
 {
   "name": "@ionic-angular/schematics",
   "description": "Schematics for Ionic Angular",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "author": {
     "name": "Rob Ferguson",
@@ -15,28 +15,34 @@
   "bugs": {
     "url": "https://github.com/Robinyo/ionic-angular-schematics.git/issues"
   },
-  "keywords": [
-    "schematics"
-  ],
-  "schematics": "./src/collection.json",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine **/*_spec.js"
   },
+  "bundleDependencies": false,
   "dependencies": {
-    "@angular-devkit/core": "^0.0.22",
-    "@angular-devkit/schematics": "^0.0.42",
-    "@schematics/schematics": "0.0.11",
-    "rxjs": "^5.5.6"
+    "@angular-devkit/core": "^0.0.22"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "@angular-devkit/schematics": "^0.0.42"
+  },
   "devDependencies": {
     "@angular/core": "5.0.3",
+    "@schematics/schematics": "0.0.11",
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.31",
     "ionic-angular": "3.9.2",
     "jasmine": "^2.8.0",
+    "rxjs": "^5.5.6",
     "typescript": "^2.5.2",
     "zone.js": "0.8.18"
-  }
+  },
+  "keywords": [
+    "angular",
+    "ionic",
+    "blueprints",
+    "code generation",
+    "schematics"
+  ],
+  "schematics": "./src/collection.json"
 }

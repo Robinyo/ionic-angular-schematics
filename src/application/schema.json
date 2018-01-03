@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "id": "SchematicsAngularApp",
-  "title": "Angular Application Options Schema",
+  "id": "SchematicsIonicApp",
+  "title": "Ionic Application Options Schema",
   "type": "object",
   "properties": {
     "directory": {
@@ -62,7 +62,7 @@
     "style": {
       "description": "The file extension to be used for style files.",
       "type": "string",
-      "default": "css"
+      "default": "scss"
     },
     "skipTests": {
       "description": "Skip creating spec files.",
@@ -88,7 +88,7 @@
     }
   },
   "required": [
-    "name",
-    "directory"
+    "directory",
+    "name"
   ]
 }
