@@ -4,12 +4,15 @@ There are two `README.md` files:
 - `./README.md`
 - `src/README.md`
 
-The copy in `./README.md` is used by GitHub.
-The copy in `src/README.md` is used by https://www.npmjs.com
+The copy in `./` is used by GitHub.
+The copy in `src/` is used by https://www.npmjs.com
 
 There are two `package.json` files:
 - `./package.json`
 - `src/package.json`
+
+The copy in `./` is used to build the project.
+The copy in `src/` is used by https://www.npmjs.com
 
 Bump the version in both files.
 
@@ -53,6 +56,14 @@ Try:
 
 ```bash
 ng new my-app
-cd my-app && ionic serve
+cd my-app
+ionic serve
 ```
+
+And:
+
+```bash
+ng g page pages/welcome
+```
+
 
