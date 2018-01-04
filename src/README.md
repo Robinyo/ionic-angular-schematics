@@ -185,7 +185,7 @@ Scaffold  | Usage
 Class | TODO
 Component | TODO
 Directive | TODO
-Page | `ng g page my-new-page`
+Page | `ng g page pages/my-new-page`
 Pipe | TODO
 Service | TODO
 Interface | TODO
