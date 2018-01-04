@@ -192,16 +192,3 @@ Then publish the package to the npm registry:
 cd src
 npm publish --access=public
 ```
-
-To install/uninstall @ionic-angular/schematics globally using npm:
-
-```bash
-npm install @ionic-angular/schematics --global
-npm uninstall @ionic-angular/schematics --global
-```
-
-To define a default collection (globally):
-
-```bash
-ng set defaults.schematics.collection @ionic-angular/schematics --global
-```

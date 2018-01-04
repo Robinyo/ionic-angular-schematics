@@ -19,8 +19,8 @@ npm publish --access=public
 To install/uninstall @ionic-angular/schematics globally using npm:
 
 ```bash
-npm install @ionic-angular/schematics --global
-npm uninstall @ionic-angular/schematics --global
+npm install -g @ionic-angular/schematics
+npm uninstall -g @ionic-angular/schematics
 ```
 
 To define a default collection (globally):
