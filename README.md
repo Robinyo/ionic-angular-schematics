@@ -4,7 +4,7 @@
 
 * [Goals](#goals)
 * [Installation](#installation)
-* [Generating a New Project](#generating-and-serving-an-ionic-project)
+* [Generating a new Project](#generating-and-serving-an-ionic-project)
 * [Generating Pages and Services](#generating-pages-and-services)
 
 ## Goals
