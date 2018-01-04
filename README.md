@@ -130,7 +130,7 @@ The set @ionic-angular/schematics as the default collection update your project'
 You also need to add the Angular CLI to your project's `devDependencies`:
 
 ```bash
-npm install --save-dev @angular/cli@latest
+npm install @angular/cli@latest --save-dev
 ```
 
 ### Generating and serving an Ionic project
