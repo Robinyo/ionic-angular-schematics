@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "<%= utils.dasherize(name) %>"
+    "name": "<%= utils.camelize(name) %>"
   },
   "apps": [
     {
@@ -55,6 +55,9 @@
     }
   },
   "defaults": {
+    "schematics": {
+      "collection": "@ionic-angular/schematics"
+    },
     "styleExt": "<%= style %>",<% if (minimal || skipTests) { %>
     "class": {
       "spec": false
