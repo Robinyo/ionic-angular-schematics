@@ -81,13 +81,15 @@ npm install -g @angular/cli
 
 ### Install @ionic-angular/schematics
 
+### Globally
+
 To install @ionic-angular/schematics globally using npm:
 
 ```bash
 npm install -g @ionic-angular/schematics
 ```
 
-To define a default collection (globally):
+To define a default collection:
 
 ```bash
 ng set defaults.schematics.collection @ionic-angular/schematics --global
@@ -101,13 +103,15 @@ mkdir @ionic-angular
 cp -R /usr/local/lib/node_modules/@ionic-angular/* @ionic-angular/
 ```
 
+### Locally
+
 To add @ionic-angular/schematics to a project using npm:
 
 ```bash
 npm install @ionic-angular/schematics --save-dev
 ```
 
-To define a default collection (locally) add the following to your project's `.angular-cli.json`:
+To define a default collection add the following to your project's `.angular-cli.json`:
 
 ```json
 "defaults": {
@@ -125,7 +129,15 @@ npm install --save-dev @angular/cli@latest
 
 ### Generating and serving an Ionic project
  
-You can use the Schematics CLI to generate a new Ionic project:
+You can use the `ng new` command to generate a new Ionic project:
+
+```bash
+ng new --collection=@ionic-angular/schematics my-app
+cd my-app
+ionic serve
+``` 
+ 
+You can also use the Schematics CLI to generate a new Ionic project:
  
 ```bash
 schematics @ionic-angular/schematics:application --directory my-app --name MyApp
@@ -134,24 +146,7 @@ npm install
 ionic serve
 ```
 
-You can use the `ng new` command to generate a new Ionic project:
-
-```bash
-ng new --collection=@ionic-angular/schematics my-app --skip-install
-cd my-app
-npm install
-ionic serve
-```
-
 ### Generating Pages and Services
-
-You can use the Schematics CLI to generate Ionic pages:
-
-```bash
-schematics @ionic-angular/schematics:page --name my-new-page
-```
-
-**Note:** @ionic-angular/schematics will add a reference to your generated `page` in your project's `app.module.ts` file.
 
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 
@@ -159,6 +154,14 @@ You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 ng generate page --collection=@ionic-angular/schematics my-new-page
 ng g page --collection=@ionic-angular/schematics my-new-page # using the alias
 ng g page my-new-page # if @ionic-angular/schematics is the default collection
+```
+
+**Note:** @ionic-angular/schematics will add a reference to your generated `page` in your project's `app.module.ts` file.
+
+You can also use the Schematics CLI to generate Ionic pages:
+
+```bash
+schematics @ionic-angular/schematics:page --name my-new-page
 ```
 
 You can find all possible blueprints in the table below:
