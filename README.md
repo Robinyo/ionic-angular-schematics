@@ -174,21 +174,3 @@ Service | TODO
 Interface | TODO
 Enum | TODO
 Module | TODO
-
-## How to Publish @ionic-angular/schematics
-
-Bump the version in `src/package.json`
-
-In the <PROJECT_ROOT> push the updates to GitHub:
-
-```bash
-git add .
-git commit -m "Updated the README.md file"
-git push -u origin master
-```
-
-Then publish the package to the npm registry:
-```bash
-cd src
-npm publish --access=public
-```
