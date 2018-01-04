@@ -14,6 +14,7 @@ Then publish the package to the npm registry:
 ```bash
 cd src
 npm publish --access=public
+cd ..
 ```
 
 To install/uninstall @ionic-angular/schematics globally using npm:
@@ -41,5 +42,6 @@ Try:
 
 ```bash
 ng new my-app
+cd my-app && ionic serve
 ```
 

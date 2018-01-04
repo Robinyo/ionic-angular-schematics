@@ -141,7 +141,7 @@ If you have set `@ionic-angular/schematics` as the default collection:
 
 ```bash
 ng new my-app
-cd my-app
+cd my-app 
 ionic serve
 ``` 
  
