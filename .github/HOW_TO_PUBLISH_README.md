@@ -1,6 +1,17 @@
 # How to Publish @ionic-angular/schematics
 
-Bump the version in `src/package.json`
+There are two `README.md` files:
+- `./README.md`
+- `src/README.md`
+
+The copy in `./README.md` is used by GitHub.
+The copy in `src/README.md` is used by https://www.npmjs.com
+
+There are two `package.json` files:
+- `./package.json`
+- `src/package.json`
+
+Bump the version in both files.
 
 In the <PROJECT_ROOT> push the updates to GitHub:
 
