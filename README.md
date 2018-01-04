@@ -89,10 +89,16 @@ To install @ionic-angular/schematics globally using npm:
 npm install -g @ionic-angular/schematics
 ```
 
-To define a default collection:
+To set @ionic-angular/schematics as the default collection:
 
 ```bash
 ng set defaults.schematics.collection @ionic-angular/schematics --global
+```
+
+To reset the default collection:
+
+```bash
+ng set defaults.schematics.collection @schematics/angular --global
 ```
 
 **Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known workaround:
@@ -111,7 +117,7 @@ To add @ionic-angular/schematics to a project using npm:
 npm install @ionic-angular/schematics --save-dev
 ```
 
-To define a default collection add the following to your project's `.angular-cli.json`:
+The set @ionic-angular/schematics as the default collection update your project's `.angular-cli.json`:
 
 ```json
 "defaults": {
