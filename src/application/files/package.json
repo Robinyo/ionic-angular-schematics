@@ -1,5 +1,5 @@
 {
-  "name": "<%= utils.dasherize(name) %>",
+  "name": "<%= utils.camelize(name) %>",
   "description": "An Ionic project",
   "version": "0.0.0",
   "author": "Ionic Framework",
@@ -11,7 +11,7 @@
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
     "ng": "ng",
     "test": "ng test",
     "e2e": "ng e2e"
