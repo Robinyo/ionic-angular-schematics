@@ -81,7 +81,7 @@ npm install -g @angular/cli
 
 ### Install @ionic-angular/schematics
 
-### Globally
+#### Globally
 
 To install @ionic-angular/schematics globally using npm:
 
@@ -103,7 +103,7 @@ mkdir @ionic-angular
 cp -R /usr/local/lib/node_modules/@ionic-angular/* @ionic-angular/
 ```
 
-### Locally
+#### Locally
 
 To add @ionic-angular/schematics to a project using npm:
 
