@@ -137,6 +137,14 @@ cd my-app
 ionic serve
 ``` 
  
+If you have set `@ionic-angular/schematics` as the default collection:
+
+```bash
+ng new my-app
+cd my-app
+ionic serve
+``` 
+ 
 You can also use the Schematics CLI to generate a new Ionic project:
  
 ```bash
