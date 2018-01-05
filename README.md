@@ -118,7 +118,7 @@ cp -R /usr/local/lib/node_modules/@ionic-angular/* @ionic-angular/
 To add @ionic-angular/schematics to a project using npm:
 
 ```bash
-npm install @ionic-angular/schematics --save-dev
+npm install @ionic-angular/schematics@latest --save-dev
 ```
 
 The set @ionic-angular/schematics as the default collection update your project's `.angular-cli.json`:

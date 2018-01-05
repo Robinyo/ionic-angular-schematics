@@ -11,6 +11,16 @@ There are two `package.json` files:
 - `./package.json`
 - `src/package.json`
 
+Also update the `@ionic/app-scripts` devDependencies:
+
+```json
+  "devDependencies": {
+    "@ionic-angular/schematics": "^0.0.20",
+  }
+```
+
+In `ionic-angular-schematics/src/application/files/package.json`
+
 The copy in `./` is used to build the project.
 The copy in `src/` is used by https://www.npmjs.com
 

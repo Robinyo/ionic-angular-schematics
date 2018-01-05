@@ -1,7 +1,7 @@
 {
   "name": "@ionic-angular/schematics",
   "description": "Schematics for Ionic Angular",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "license": "MIT",
   "author": {
     "name": "Rob Ferguson",
@@ -32,6 +32,6 @@
     "jasmine": "^2.8.0",
     "rxjs": "^5.5.6",
     "typescript": "^2.5.2",
-    "zone.js": "0.8.18"
+    "zone.js": "0.8.19"
   }
 }
