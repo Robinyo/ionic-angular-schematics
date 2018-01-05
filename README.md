@@ -21,14 +21,18 @@
                 ├── app.module.ts
                 ├── app.scss
                 ├── main.ts
-                └── /core                      - Core Module
-                └── /pages                     - Feature Modules
+                └── /core                      - Core Feature Module
+                └── /feature-1                 - Feature Module (e.g., Heros) 
+                └── /feature-2                 - Feature Module (e.g., Villains)                
+                └── /pages                     - Page Modules
                     └── /home
                         ├── home.page.html
+                        ├── home.page.module.ts
                         ├── home.page.scss   
                         ├── home.page.spec.ts
-                        ├── home.page.ts                                                                     
-                └── /shared                    - Shared Module
+                        ├── home.page.ts     
+                └── /services                  - Services/Providers                                                                                                               
+                └── /shared                    - Shared Feature Module (for your components, pipes, and directives)
             └── /assets
             └── /theme
                 ├── variables.scss     
@@ -50,6 +54,8 @@
         ├── tsconfig.json
         ├── tslint.json             
 ```
+
+**Note:** See this [post](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/) re Shared Feature Module (Shared Common Modules) v Encapsulated Modules.
 
 - [Code scaffolding](#generating-pages-and-services)
 - [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
@@ -191,3 +197,24 @@ Service | TODO
 Interface | TODO
 Enum | TODO
 Module | TODO
+
+## Resources
+
+## Angular 
+
+* Angular docs: [Angular Style Guide](https://angular.io/guide/styleguide)
+* GitHub: [Angular CLI](https://github.com/angular/angular-cli)
+* GitHub: [Angular CLI Stories](https://github.com/angular/angular-cli/wiki/stories)
+
+## Ionic 
+
+* Ionic docs: [Ionic CLI](https://ionicframework.com/docs/cli/)
+* Ionic docs: [Ionic Starters](https://ionicframework.com/docs/cli/starters.html)
+* Ionic docs: [ionic generate](https://ionicframework.com/docs/cli/generate/)
+* Ionic blog: [Ionic and Lazy Loading - Part 1](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-1/)
+* Ionic blog: [Ionic and Lazy Loading - Part 2](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/)
+
+## npm 
+
+* npm docs: [How to Create Node.js Modules](https://docs.npmjs.com/getting-started/creating-node-modules)
+* npm docs: [How to Publish a Package](https://docs.npmjs.com/getting-started/publishing-npm-packages)
