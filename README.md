@@ -15,22 +15,22 @@
 ```bash
     ├── <PROJECT_ROOT>
         └── /src
-            └── /app                           - App Module 
+            └── /app                            - App Module 
                 ├── app.component.ts
                 ├── app.html
                 ├── app.module.ts
                 ├── app.scss
                 ├── main.ts
-                └── /core                      - Core Feature Module
-                └── /pages                     - Page Modules
+                └── /core                       - Core Feature Module
+                └── /pages                      - Page Modules
                     └── /home
                         ├── home.page.html
-                        ├── home.page.module.ts
+                        ├── home.page.module.ts 
                         ├── home.page.scss   
                         ├── home.page.spec.ts
                         ├── home.page.ts     
-                └── /services                  - Services/Providers                                                                                                               
-                └── /shared                    - Shared Feature Module (for your shared components, directives and pipes)
+                └── /services                   - Services/Providers                                                                                                               
+                └── /shared                     - Shared Feature Module (for your shared components, directives and pipes)
             └── /assets
             └── /theme
                 ├── variables.scss     
