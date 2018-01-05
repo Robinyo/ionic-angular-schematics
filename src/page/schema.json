@@ -75,7 +75,7 @@
     "skipImport": {
       "type": "boolean",
       "description": "Flag to skip the module import.",
-      "default": false
+      "default": true
     },
     "selector": {
       "type": "string",

@@ -169,12 +169,12 @@ ionic serve
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 
 ```bash
-ng generate page --collection=@ionic-angular/schematics pages/my-new-page
-ng g page --collection=@ionic-angular/schematics pages/my-new-page # using the alias
-ng g page pages/my-new-page # if @ionic-angular/schematics is the default collection
+ng generate page --collection=@ionic-angular/schematics pages/my-new-page --skip-import
+ng g page --collection=@ionic-angular/schematics pages/my-new-page --skip-import # using the alias
+ng g page pages/my-new-page --skip-import # if @ionic-angular/schematics is the default collection
 ```
 
-**Note:** @ionic-angular/schematics will add a reference to your generated `page` in your project's `app.module.ts` file.
+**Note:** Pages are lazy loaded by default.
 
 You can also use the Schematics CLI to generate Ionic pages:
 
@@ -189,7 +189,7 @@ Scaffold  | Usage
 Class | TODO
 Component | TODO
 Directive | TODO
-Page | `ng g page pages/my-new-page`
+Page | `ng g page pages/my-new-page --skip-import`
 Pipe | TODO
 Service | TODO
 Interface | TODO
