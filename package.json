@@ -1,11 +1,10 @@
 {
   "name": "@ionic-angular/schematics",
   "description": "Schematics for Ionic Angular",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "license": "MIT",
   "author": {
     "name": "Rob Ferguson",
-    "email": "rob.ferguson@robferguson.org",
     "url": "https://robferguson.org/blog"
   },
   "repository": {

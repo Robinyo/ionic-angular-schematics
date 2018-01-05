@@ -1,16 +1,22 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
-// @IonicPage()
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
+
+@IonicPage({
+  priority: 'high'
+})
 @Component({
   selector: 'page-home',
   templateUrl: './home.page.html'
 })
-export class HomePage {
+export class HomePage implements OnInit, OnDestroy {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+              public navParams: NavParams) {
 
   }
-
-  // public ionViewDidLoad() {}
+  
+  public ngOnInit() {}
+  
+  public ngOnDestroy() {}
 }
