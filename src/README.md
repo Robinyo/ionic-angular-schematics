@@ -22,8 +22,6 @@
                 ├── app.scss
                 ├── main.ts
                 └── /core                      - Core Feature Module
-                └── /feature-1                 - Feature Module (e.g., Heros) 
-                └── /feature-2                 - Feature Module (e.g., Villains)                
                 └── /pages                     - Page Modules
                     └── /home
                         ├── home.page.html
