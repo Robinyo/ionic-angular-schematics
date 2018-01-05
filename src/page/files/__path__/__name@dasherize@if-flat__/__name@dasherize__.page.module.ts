@@ -10,4 +10,4 @@ import { <%= classify(name) %>Page } from './<%= dasherize(name) %>.page';
     IonicPageModule.forChild(<%= classify(name) %>Page)
   ]
 })
-export class <%= classify(name) %>Page {}
+export class <%= classify(name) %>PageModule {}

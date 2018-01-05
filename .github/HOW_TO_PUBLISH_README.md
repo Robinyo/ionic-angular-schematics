@@ -16,6 +16,11 @@ The copy in `src/` is used by https://www.npmjs.com
 
 Bump the version in both files.
 
+Run:
+```bash
+tsc -p tsconfig.json
+```
+
 In the <PROJECT_ROOT> push the updates to GitHub:
 
 ```bash
