@@ -30,7 +30,7 @@
                         ├── home.page.spec.ts
                         ├── home.page.ts     
                 └── /services                  - Services/Providers                                                                                                               
-                └── /shared                    - Shared Feature Module (for your components, pipes, and directives)
+                └── /shared                    - Shared Feature Module (for your shared components, directives and pipes)
             └── /assets
             └── /theme
                 ├── variables.scss     
