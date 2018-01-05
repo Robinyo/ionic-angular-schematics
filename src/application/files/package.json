@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@angular/cli": "^1.6.3",
-    "@ionic-angular/schematics": "0.0.12",
-    "@ionic/app-scripts": "3.1.6",
-    "typescript": "2.4.2"
+    "@ionic-angular/schematics": "^0.0.18",
+    "@ionic/app-scripts": "^3.1.6",
+    "typescript": "^2.4.2"
   }
 }

@@ -22,6 +22,7 @@ In the <PROJECT_ROOT> push the updates to GitHub:
 git add .
 git commit -m "Updated the README.md file"
 git commit -m "Updated the Application collection"
+git commit -m "Updated the Page collection"
 git push -u origin master
 ```
 
@@ -64,7 +65,7 @@ ionic serve
 And:
 
 ```bash
-ng g page pages/welcome --skip-import
+ng g page pages/welcome --skip-import --dry-run
 ```
 
 
