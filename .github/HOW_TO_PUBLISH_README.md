@@ -15,7 +15,7 @@ Also update the `@ionic/app-scripts` devDependencies:
 
 ```json
   "devDependencies": {
-    "@ionic-angular/schematics": "^0.0.20",
+    "@ionic-angular/schematics": "^0.0.21",
   }
 ```
 
@@ -53,7 +53,6 @@ To install/uninstall @ionic-angular/schematics globally using npm:
 ```bash
 npm uninstall -g @ionic-angular/schematics
 npm install -g @ionic-angular/schematics
-
 ```
 
 **Note:** There is currently an issue with Schematics use of `require.resolve()` however there is a known workaround:

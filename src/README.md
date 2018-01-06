@@ -15,22 +15,25 @@
 ```bash
     ├── <PROJECT_ROOT>
         └── /src
-            └── /app                            - App Module 
+            └── /app                                  -  [App Module](https://angular.io/guide/styleguide#app-root-module)
                 ├── app.component.ts
                 ├── app.html
                 ├── app.module.ts
                 ├── app.scss
                 ├── main.ts
-                └── /core                       - Core Feature Module
-                └── /pages                      - Page Modules
+                └── /core                             - [Core Feature Module](https://angular.io/guide/styleguide#core-feature-module) (e.g., Singleton Services/Providers)
+                    ├── core.module.ts                       
+                    └── /logger
+                        ├── console-logger.service.ts
+                        ├── logger.service.ts                               
+                └── /pages                            - Page (Component) Modules
                     └── /home
                         ├── home.page.html
                         ├── home.page.module.ts 
                         ├── home.page.scss   
                         ├── home.page.spec.ts
-                        ├── home.page.ts     
-                └── /services                   - Services/Providers                                                                                                               
-                └── /shared                     - Shared Feature Module (for your shared components, directives and pipes)
+                        ├── home.page.ts                                                                                                               
+                └── /shared                           - Shared Feature Module (for your shared components, directives and pipes)
             └── /assets
             └── /theme
                 ├── variables.scss     
@@ -186,7 +189,6 @@ You can find all possible blueprints in the table below:
 
 Scaffold  | Usage
 ---       | ---
-Class | TODO
 Component | TODO
 Directive | TODO
 Page | `ng g page pages/my-new-page --skip-import`
@@ -216,3 +218,4 @@ Module | TODO
 
 * npm docs: [How to Create Node.js Modules](https://docs.npmjs.com/getting-started/creating-node-modules)
 * npm docs: [How to Publish a Package](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* npm docs: [Verdaccio - A lightweight private npm proxy registry](https://github.com/verdaccio/verdaccio)
