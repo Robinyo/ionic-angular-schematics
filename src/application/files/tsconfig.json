@@ -19,8 +19,9 @@
     "paths": {
       "@app/*": [ "app/*" ],
       "@assets/*": [ "assets/*" ],
+      "@core/*": [ "app/core/*" ],
+      "@env": [ "environments/environment" ],
       "@pages/*": [ "app/pages/*" ],
-      "@services/*": [ "app/services/*" ],
       "@tests/*": [ "./*" ],
       "@theme/*": [ "theme/*" ]
     }
@@ -33,7 +34,7 @@
     "src/test.ts",
     "**/*.spec.ts",
     "e2e",
-    "src/pages/home/*.ts"
+    "src/pages/home/*.spec.ts"
   ],
   "compileOnSave": false,
   "atom": {

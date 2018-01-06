@@ -2,7 +2,9 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-@IonicPage()
+@IonicPage({
+  segment: '<%= dasherize(name) %>'
+})
 @Component({
   selector: '<%= selector %>',
   templateUrl: './<%= dasherize(name) %>.page.html'

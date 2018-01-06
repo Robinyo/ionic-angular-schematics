@@ -1,21 +1,36 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# compiled output
-/dist
-/tmp
-/out-tsc
-
-# dependencies
-/node_modules
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
 
 # IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
 *.sublime-workspace
+.vscode/
+npm-debug.log*
+
+.idea/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.versions/
+coverage/
+dist/
+node_modules/
+docs/
+tmp/
+temp/
+hooks/
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json
+www/
+$RECYCLE.BIN/
 
 # IDE - VSCode
 .vscode/*
@@ -24,15 +39,6 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
-
 # e2e
 /e2e/*.js
 /e2e/*.map
@@ -40,3 +46,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+UserInterfaceState.xcuserstate
+
+# Envrionment Variables
+**/environment.*
+!**/environment.model.ts

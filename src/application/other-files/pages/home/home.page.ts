@@ -3,6 +3,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage({
+  segment: 'home',
   priority: 'high'
 })
 @Component({

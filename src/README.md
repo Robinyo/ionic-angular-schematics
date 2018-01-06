@@ -44,8 +44,9 @@
             ├── index.html
             ├── manifest.json
             ├── service-worker.js
-        └── /resources
-        └── /www
+        └── /e2e                                      - E2E Tests
+        └── /resources                                - Default Resources (e.g., Icon and Splash)
+        └── /www                                      - Ionic's 'dist' directory
             └── /assets
             └── /build   
             ├── index.html
