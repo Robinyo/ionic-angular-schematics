@@ -12,7 +12,7 @@ import { CoreModule } from './core/core.module';
   declarations: [MyApp],
   imports: [
     BrowserModule,
-    CoreModule
+    CoreModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

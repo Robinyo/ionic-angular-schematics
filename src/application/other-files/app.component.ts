@@ -4,7 +4,7 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { LoggerService } from '../core/logger/logger.service';
+import { LoggerService } from './core/logger/logger.service';
 
 @Component({
   templateUrl: 'app.component.html'
