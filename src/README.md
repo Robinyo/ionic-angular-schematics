@@ -10,18 +10,22 @@
 ## Goals
 - A standardised Ionic project structure
 
-  Aligned with the Angular Style guide's [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
+  Aligned with the Angular Style guide's:
+  - [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
+  - [App Module](https://angular.io/guide/styleguide#app-root-module)
+  - [Core Feature Module](https://angular.io/guide/styleguide#core-feature-module)
+  - [Shared Feature Module](https://angular.io/guide/styleguide#shared-feature-module)
 
 ```bash
     ├── <PROJECT_ROOT>
         └── /src
-            └── /app                                  -  [App Module](https://angular.io/guide/styleguide#app-root-module)
+            └── /app                                  -  App Module
                 ├── app.component.ts
                 ├── app.html
                 ├── app.module.ts
                 ├── app.scss
                 ├── main.ts
-                └── /core                             - [Core Feature Module](https://angular.io/guide/styleguide#core-feature-module) (e.g., Singleton Services/Providers)
+                └── /core                             - Core Feature Module (e.g., Singleton Services/Providers)
                     ├── core.module.ts                       
                     └── /logger
                         ├── console-logger.service.ts
@@ -33,7 +37,7 @@
                         ├── home.page.scss   
                         ├── home.page.spec.ts
                         ├── home.page.ts                                                                                                               
-                └── /shared                           - Shared Feature Module (for your shared components, directives and pipes)
+                └── /shared                           - Shared Feature Module (shared Components, Directives and Pipes)
             └── /assets
             └── /theme
                 ├── variables.scss     

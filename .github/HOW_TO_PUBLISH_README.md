@@ -38,6 +38,7 @@ git add .
 git commit -m "Updated the README.md file"
 git commit -m "Updated the Application collection"
 git commit -m "Updated the Page collection"
+git commit -m "Added Core Feature Module"
 git push -u origin master
 ```
 
