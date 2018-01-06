@@ -4,16 +4,16 @@
 
 * [Goals](#goals)
 * [Installation](#installation)
-* [Generating a new Project](#generating-and-serving-an-ionic-project)
+* [Generating a new Ionic Project](#generating-and-serving-an-ionic-project)
 * [Generating Components](#generating-components)
 
 ## Goals
 - A standardised Ionic project structure
 
   Aligned with the Angular Style guide's:
-  - [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
-  - [App Module](https://angular.io/guide/styleguide#app-root-module)
-  - [Core Feature Module](https://angular.io/guide/styleguide#core-feature-module)
+  - [X] [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
+  - [X] [App Module](https://angular.io/guide/styleguide#app-root-module)
+  - [X] [Core Feature Module](https://angular.io/guide/styleguide#core-feature-module)
   - [Shared Feature Module](https://angular.io/guide/styleguide#shared-feature-module)
 
 ```bash
@@ -67,10 +67,10 @@
 
 
 - [Code scaffolding](#generating-pages-and-services)
-- [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
-- [Environment specific configuration](https://github.com/Robinyo/big-top#aliases-and-environment-specific-variables)
+- [X] [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
+- [X][Environment specific configuration](https://github.com/Robinyo/big-top#aliases-and-environment-specific-variables)
 - [Dynamic Themes](https://robferguson.org/blog/2017/11/12/theming-your-ionic-3-app/)
-- [Logging](https://robferguson.org/blog/2017/09/09/a-simple-logging-service-for-angular-4/)
+- [X] [Logging](https://robferguson.org/blog/2017/09/09/a-simple-logging-service-for-angular-4/)
 - [Unit and E2E Testing](https://robferguson.org/blog/2017/11/28/testing-your-ionic-3-app/)
 - Baked in best practices that have been discovered by the community over time
 

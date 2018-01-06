@@ -2,6 +2,8 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { LoggerService } from '@core/logger/logger.service';
+
 @IonicPage({
   segment: 'home',
   priority: 'high'
@@ -13,11 +15,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class HomePage implements OnInit, OnDestroy {
 
   constructor(public navCtrl: NavController,
-              public navParams: NavParams) {
+              public navParams: NavParams,
+              private logger: LoggerService) {
 
   }
   
-  public ngOnInit() {}
+  public ngOnInit() {
+    this.logger.info('HomePage: ngOnInit()');
+  }
   
-  public ngOnDestroy() {}
+  public ngOnDestroy() {
+    this.logger.info('HomePage: ngOnDestroy()');
+  }
 }
