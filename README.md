@@ -8,9 +8,7 @@
 * [Generating Components](#generating-components)
 
 ## Goals
-- A standardised Ionic project structure
-
-  Aligned with the Angular Style guide's:
+- A standardised Ionic project structure aligned with the Angular Style guide's:
   - [X] [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
   - [X] [App Module](https://angular.io/guide/styleguide#app-root-module)
   - [X] [Core Feature Module](https://angular.io/guide/styleguide#core-feature-module)
