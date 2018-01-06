@@ -60,7 +60,6 @@
         ├── tslint.json             
 ```
 
-**Note:** See this [post](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/) re Shared Feature Module (Shared Common Modules) v Encapsulated Modules.
 
 - [Code scaffolding](#generating-pages-and-services)
 - [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
@@ -70,7 +69,9 @@
 - [Unit and E2E Testing](https://robferguson.org/blog/2017/11/28/testing-your-ionic-3-app/)
 - Baked in best practices that have been discovered by the community over time
 
-See: https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/
+**Note:** See this [post](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/) re Shared Feature Module (Shared Common Modules) v Encapsulated Modules.
+
+
 
 ## Installation
 
@@ -203,6 +204,10 @@ Enum | TODO
 Module | TODO
 
 ## Resources
+
+## Blog Posts
+
+* [The Future of the Ionic CLI](https://robferguson.org/blog/2017/12/31/the-future-of-the-ionic-cli/)
 
 ## Angular 
 
