@@ -39,6 +39,7 @@ git commit -m "Updated the README.md file"
 git commit -m "Updated the Application collection"
 git commit -m "Updated the Page collection"
 git commit -m "Added Core Feature Module"
+git commit -m "Added support for Aliases and Environment specific configuration"
 git push -u origin master
 ```
 

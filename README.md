@@ -39,11 +39,15 @@
                         ├── home.page.ts                                                                                                               
                 └── /shared                           - Shared Feature Module (shared Components, Directives and Pipes)
             └── /assets
+            └── /environments                         - Environment specific configuration   
+                ├── environment.dev.ts
+                ├── environment.ts                        
             └── /theme
                 ├── variables.scss     
             ├── index.html
             ├── manifest.json
             ├── service-worker.js
+        └── /config                                   - Webpack configuration
         └── /e2e                                      - E2E Tests
         └── /resources                                - Default Resources (e.g., Icon and Splash)
         └── /www                                      - Ionic's 'dist' directory
