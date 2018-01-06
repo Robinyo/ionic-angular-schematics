@@ -5,7 +5,7 @@
 * [Goals](#goals)
 * [Installation](#installation)
 * [Generating a new Project](#generating-and-serving-an-ionic-project)
-* [Generating Pages and Services](#generating-pages-and-services)
+* [Generating Components](#generating-components)
 
 ## Goals
 - A standardised Ionic project structure
@@ -171,7 +171,7 @@ npm install
 ionic serve
 ```
 
-### Generating Pages and Services
+### Generating Components
 
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 
