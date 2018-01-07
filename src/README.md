@@ -74,8 +74,6 @@
 
 **Note:** See this [post](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/) re Shared Feature Module (Shared Common Modules) v Encapsulated Modules.
 
-
-
 ## Installation
 
 ### Prerequisites
@@ -174,6 +172,12 @@ cd my-app
 npm install
 ionic serve
 ```
+
+Sample page:
+
+<p align="center">
+  <img src="https://github.com/Robinyo/ionic-angular-schematics/blob/master/screen-shots/ios/home-page.png">
+</p>
 
 ### Generating Components
 
