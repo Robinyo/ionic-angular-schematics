@@ -173,12 +173,6 @@ npm install
 ionic serve
 ```
 
-Sample page:
-
-<p align="center">
-  <img src="https://github.com/Robinyo/ionic-angular-schematics/blob/master/screen-shots/ios/home-page.png">
-</p>
-
 ### Generating Components
 
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
@@ -196,6 +190,12 @@ You can also use the Schematics CLI to generate Ionic pages:
 ```bash
 schematics @ionic-angular/schematics:page --name my-new-page
 ```
+
+Sample page:
+
+<p align="center">
+  <img src="https://github.com/Robinyo/ionic-angular-schematics/blob/master/screen-shots/ios/home-page.png">
+</p>
 
 You can find all possible blueprints in the table below:
 
