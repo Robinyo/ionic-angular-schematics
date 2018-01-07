@@ -1,1 +1,2 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav main [root]="rootPage" #content swipeBackEnabled="false" [class]="theme"></ion-nav>

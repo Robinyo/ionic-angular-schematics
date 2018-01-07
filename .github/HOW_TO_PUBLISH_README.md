@@ -15,7 +15,7 @@ Also update the `@ionic/app-scripts` devDependencies:
 
 ```json
   "devDependencies": {
-    "@ionic-angular/schematics": "^0.0.23",
+    "@ionic-angular/schematics": "^0.0.24",
   }
 ```
 
@@ -75,7 +75,7 @@ Try:
 ```bash
 ng new my-app
 cd my-app
-ionic serve
+ionic serve --platform=ios
 ```
 
 And:
