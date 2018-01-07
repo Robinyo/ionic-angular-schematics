@@ -1,5 +1,7 @@
-# Getting Started with @ionic-angular/schematics
+# @ionic-angular/schematics
 
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) 
+ 
 ## Table of Contents
 
 * [Goals](#goals)
@@ -10,11 +12,12 @@
 ## Goals
 - A standardised Ionic project structure aligned with the Angular Style guide's:
   - [X] [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
+  - [X] [Folders-by-feature structure](https://angular.io/guide/styleguide#folders-by-feature-structure)  
   - [X] [App Module](https://angular.io/guide/styleguide#app-root-module)
   - [X] [Core Feature Module](https://angular.io/guide/styleguide#core-feature-module)
-  - [Shared Feature Module](https://angular.io/guide/styleguide#shared-feature-module)
+  - [X] [Shared Feature Module](https://angular.io/guide/styleguide#shared-feature-module)
 
-```bash
+```
     ├── <PROJECT_ROOT>
         └── /src
             └── /app                                  -  App Module
@@ -24,7 +27,8 @@
                 ├── app.scss
                 ├── main.ts
                 └── /core                             - Core Feature Module (e.g., Singleton Services/Providers)
-                    ├── core.module.ts                       
+                    ├── core.module.ts
+                    ├── module-import-guard.ts  
                     └── /logger
                         ├── console-logger.service.ts
                         ├── logger.service.ts                               
@@ -36,6 +40,7 @@
                         ├── home.page.spec.ts
                         ├── home.page.ts                                                                                                               
                 └── /shared                           - Shared Feature Module (shared Components, Directives and Pipes)
+                    ├── shared.module.ts                
             └── /assets
             └── /environments                         - Environment specific configuration   
                 ├── environment.dev.ts
@@ -69,6 +74,8 @@
 
 
 - [Code scaffolding](#generating-pages-and-services)
+  - [X] Application
+  - [X] Page
 - [X] [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
 - [X] [Environment specific configuration](https://github.com/Robinyo/big-top#aliases-and-environment-specific-variables)
 - [X] [Dynamic Themes](https://robferguson.org/blog/2017/11/12/theming-your-ionic-3-app/)

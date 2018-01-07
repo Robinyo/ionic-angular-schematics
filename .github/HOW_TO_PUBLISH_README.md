@@ -15,7 +15,7 @@ Also update the `@ionic/app-scripts` devDependencies:
 
 ```json
   "devDependencies": {
-    "@ionic-angular/schematics": "^0.0.25",
+    "@ionic-angular/schematics": "^0.0.26",
   }
 ```
 
