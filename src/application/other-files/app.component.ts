@@ -1,3 +1,9 @@
+/**
+ * The Application component for MyApp.
+ */
+
+import { ENV } from '@env';
+
 import { Component } from '@angular/core';
 
 import { Platform } from 'ionic-angular';
@@ -5,6 +11,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { LoggerService } from '@core/logger/logger.service';
+
+let isDebugMode = ENV.isDebugMode;
 
 @Component({
   templateUrl: 'app.component.html'

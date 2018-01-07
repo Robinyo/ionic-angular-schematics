@@ -15,7 +15,7 @@ Also update the `@ionic/app-scripts` devDependencies:
 
 ```json
   "devDependencies": {
-    "@ionic-angular/schematics": "^0.0.24",
+    "@ionic-angular/schematics": "^0.0.25",
   }
 ```
 
@@ -40,6 +40,7 @@ git commit -m "Updated the Application collection"
 git commit -m "Updated the Page collection"
 git commit -m "Added Core Feature Module"
 git commit -m "Added support for Aliases and Environment specific configuration"
+git commit -m "Added Dynamic Theme support"
 git push -u origin master
 ```
 
