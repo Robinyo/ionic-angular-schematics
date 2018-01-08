@@ -7,24 +7,22 @@ There are two `README.md` files:
 The copy in `./` is used by GitHub.
 The copy in `src/` is used by https://www.npmjs.com
 
-There are two `package.json` files:
+There are three `package.json` files:
 - `./package.json`
 - `src/package.json`
 
-Also update the `@ionic/app-scripts` devDependencies:
+The copy in `./` is used to build the project.
+The copy in `src/` is used by https://www.npmjs.com
+Bump the version in both files.
+
+You also need to update the `@ionic/app-scripts` devDependencies, in 
+`ionic-angular-schematics/src/application/files/package.json`
 
 ```json
   "devDependencies": {
-    "@ionic-angular/schematics": "^0.0.28",
+    "@ionic-angular/schematics": "^0.0.30",
   }
 ```
-
-In `ionic-angular-schematics/src/application/files/package.json`
-
-The copy in `./` is used to build the project.
-The copy in `src/` is used by https://www.npmjs.com
-
-Bump the version in both files.
 
 Run:
 ```bash
