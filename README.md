@@ -75,6 +75,7 @@
 
 - [Code scaffolding](#generating-pages-and-services)
   - [X] Application
+  - [X] Module
   - [X] Page
 - [X] [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
 - [X] [Environment specific configuration](https://github.com/Robinyo/big-top#aliases-and-environment-specific-variables)
@@ -189,9 +190,9 @@ ionic serve
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 
 ```bash
-ng generate page --collection=@ionic-angular/schematics pages/my-new-page --skip-import
-ng g page --collection=@ionic-angular/schematics pages/my-new-page --skip-import # using the alias
-ng g page pages/my-new-page --skip-import # if @ionic-angular/schematics is the default collection
+ng generate page --collection=@ionic-angular/schematics pages/my-page --skip-import
+ng g page --collection=@ionic-angular/schematics pages/my-page --skip-import # using the alias
+ng g page pages/my-page --skip-import # if @ionic-angular/schematics is the default collection
 ```
 
 **Note:** Pages are lazy loaded by default.
@@ -199,7 +200,7 @@ ng g page pages/my-new-page --skip-import # if @ionic-angular/schematics is the 
 You can also use the Schematics CLI to generate Ionic pages:
 
 ```bash
-schematics @ionic-angular/schematics:page --name my-new-page
+schematics @ionic-angular/schematics:page --name my-page
 ```
 
 Sample page:
@@ -214,12 +215,12 @@ Scaffold  | Usage
 ---       | ---
 Component | TODO
 Directive | TODO
-Page | `ng g page pages/my-new-page --skip-import`
+Page | `ng g page pages/my-page --skip-import`
 Pipe | TODO
 Service | TODO
 Interface | TODO
 Enum | TODO
-Module | TODO
+Module | ng g module my-module
 
 ## Resources
 
