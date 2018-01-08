@@ -15,7 +15,7 @@ Also update the `@ionic/app-scripts` devDependencies:
 
 ```json
   "devDependencies": {
-    "@ionic-angular/schematics": "^0.0.27",
+    "@ionic-angular/schematics": "^0.0.28",
   }
 ```
 
@@ -85,6 +85,8 @@ And:
 
 ```bash
 ng g page pages/welcome --skip-import --dry-run
+
+ng g module feature-1
 ```
 
 
