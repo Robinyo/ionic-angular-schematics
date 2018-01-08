@@ -220,7 +220,7 @@ Pipe | TODO
 Service | TODO
 Interface | TODO
 Enum | TODO
-Module | ng g module my-module
+Module | `ng g module my-module`
 
 ## Resources
 
