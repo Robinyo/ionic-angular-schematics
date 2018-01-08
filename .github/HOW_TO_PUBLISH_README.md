@@ -83,10 +83,7 @@ And:
 
 ```bash
 ng g page pages/welcome --skip-import --dry-run
-
-ng g module feature-1 --spec true
-ng g module feature-2 --spec true --dry-run
-  
+ng g module feature-1 --spec --dry-run
 
 ```
 
