@@ -75,8 +75,14 @@
 
 - [Code scaffolding](#generating-pages-and-services)
   - [X] Application
-  - [X] Module
+  - [X] Component
+  - [X] Directive
+  - [X] Enum
+  - [X] Interface
+  - [X] Module      
   - [X] Page
+  - [X] Pipe
+  - [X] Service      
 - [X] [Aliases](https://robferguson.org/blog/2017/11/22/working-with-typescript-webpack-and-ionic-3/)
 - [X] [Environment specific configuration](https://github.com/Robinyo/big-top#aliases-and-environment-specific-variables)
 - [X] [Dynamic Themes](https://robferguson.org/blog/2017/11/12/theming-your-ionic-3-app/)
@@ -213,15 +219,15 @@ You can find all possible blueprints in the table below:
 
 Scaffold  | Usage
 ---       | ---
-Component | TODO
-Directive | TODO
-Page | `ng g page pages/my-page --skip-import`
-Pipe | TODO
-Service | TODO
-Interface | TODO
-Enum | TODO
+Component | `ng g component my-new-component --spec`
+Directive | `ng g directive my-new-directive --spec`
+Enum | `ng g enum my-new-enum`
+Interface | `ng g interface my-new-interface`
 Module | `ng g module my-module --spec`
-
+Page | `ng g page pages/my-page --skip-import`
+Pipe | `ng g pipe my-new-pipe --spec`
+Service | `ng g service my-new-service pipe --spec`
+ 
 ## Resources
 
 ## Blog Posts

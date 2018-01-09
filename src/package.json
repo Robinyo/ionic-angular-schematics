@@ -1,7 +1,7 @@
 {
   "name": "@ionic-angular/schematics",
+  "version": "1.0.0",
   "description": "Schematics for Ionic Angular",
-  "version": "0.0.30",
   "license": "MIT",
   "author": {
     "name": "Rob Ferguson",
@@ -13,6 +13,11 @@
   },
   "bugs": {
     "url": "https://github.com/Robinyo/ionic-angular-schematics.git/issues"
+  },
+  "homepage": "https://github.com/Robinyo/ionic-angular-schematics",
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
   },
   "dependencies": {},
   "peerDependencies": {
