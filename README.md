@@ -241,6 +241,7 @@ Module | `ng g module my-module --spec`
 * Ionic docs: [ionic generate](https://ionicframework.com/docs/cli/generate/)
 * Ionic blog: [Ionic and Lazy Loading - Part 1](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-1/)
 * Ionic blog: [Ionic and Lazy Loading - Part 2](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/)
+* Ionic: [Progressive Web Apps](https://ionicframework.com/pwa)
 
 ## npm 
 

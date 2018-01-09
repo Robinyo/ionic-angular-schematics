@@ -22,6 +22,7 @@
       "@core/*": [ "app/core/*" ],
       "@env": [ "environments/environment" ],
       "@pages/*": [ "app/pages/*" ],
+      "@shared/*": [ "app/shared/*" ],
       "@tests/*": [ "./*" ],
       "@theme/*": [ "theme/*" ]
     }
