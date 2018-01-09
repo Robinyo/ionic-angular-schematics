@@ -224,7 +224,7 @@ Directive | `ng g directive my-new-directive --spec`
 Enum | `ng g enum my-new-enum`
 Interface | `ng g interface my-new-interface`
 Module | `ng g module my-module --spec`
-Page | `ng g page pages/my-page --skip-import`
+Page | `ng g page pages/my-new-page --skip-import`
 Pipe | `ng g pipe my-new-pipe --spec`
 Service | `ng g service my-new-service pipe --spec`
  
