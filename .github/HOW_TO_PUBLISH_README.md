@@ -42,6 +42,7 @@ git commit -m "Added Dynamic Theme support"
 git commit -m "Added Shared Module support"
 git commit -m "Added generate Module support"
 git commit -m "Added generate Service support"
+git commit -m "Fixed webpack config issue"
 git push -u origin master
 ```
 
@@ -86,6 +87,7 @@ And:
 ng g page pages/welcome --skip-import --dry-run
 ng g module feature-1 --spec --dry-run
 
+npm run build --platform=ios
 ```
 
 
