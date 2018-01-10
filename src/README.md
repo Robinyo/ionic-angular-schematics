@@ -245,6 +245,9 @@ Service | `ng g service my-new-service --spec`
 * Ionic docs: [Ionic CLI](https://ionicframework.com/docs/cli/)
 * Ionic docs: [Ionic Starters](https://ionicframework.com/docs/cli/starters.html)
 * Ionic docs: [ionic generate](https://ionicframework.com/docs/cli/generate/)
+* Ionic docs: [Configuring Ionic](https://ionicframework.com/docs/cli/configuring.html)
+
+https://ionicframework.com/docs/cli/configuring.html
 * Ionic blog: [Ionic and Lazy Loading - Part 1](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-1/)
 * Ionic blog: [Ionic and Lazy Loading - Part 2](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/)
 * Ionic: [Progressive Web Apps](https://ionicframework.com/pwa)

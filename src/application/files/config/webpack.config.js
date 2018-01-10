@@ -13,7 +13,7 @@ if (env === 'prod' || env === 'dev') {
     "@core": path.resolve('./src/app/core/'),
     "@env": path.resolve(environmentPath()),
     "@pages": path.resolve('./src/app/pages/'),
-    "@shared": [ "./src/app/shared/*" ],
+    "@shared": path.resolve('./src/app/shared/'),
     "@tests": path.resolve('./src/'),
     "@theme": path.resolve('./src/theme/')
   };
@@ -28,7 +28,7 @@ if (env === 'prod' || env === 'dev') {
     "@core": path.resolve('./src/app/core/'),
     "@env": path.resolve(environmentPath()),
     "@pages": path.resolve('./src/app/pages/'),
-    "@shared": [ "./src/app/shared/*" ],
+    "@shared": path.resolve('./src/app/shared/'),
     "@tests": path.resolve('./src/'),
     "@theme": path.resolve('./src/theme/')
   };
