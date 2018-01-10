@@ -54,8 +54,12 @@
             ├── index.html
             ├── manifest.json
             ├── service-worker.js
-        └── /config                                   - Webpack configuration
-        └── /e2e                                      - E2E Tests
+        └── /config                                   - Webpack Configuration
+            ├── webpack.config.json
+        └── /e2e                                      - E2E Test Configuration
+            ├── app.e2e-spec.ts
+            ├── app.po.ts
+            ├── tsconfig.e2e.json
         └── /resources                                - Default Resources (e.g., Icon and Splash)
         └── /www                                      - Ionic's 'dist' directory
             └── /assets
@@ -66,12 +70,15 @@
         ├── .editorconfig
         ├── .gitignore
         ├── config.xml
-        ├── ionic.config.json      
+        ├── ionic.config.json
+        ├── karma.conf.json           
         ├── package.json
+        ├── protractor.conf.json
+        ├── README.md     
         ├── tsconfig.json
+        ├── tsconfig.ng-cli.json        
         ├── tslint.json             
 ```
-
 
 - [Code scaffolding](#generating-pages-and-services)
   - [X] Application

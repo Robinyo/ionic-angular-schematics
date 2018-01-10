@@ -87,7 +87,7 @@ And:
 ng g page pages/welcome --skip-import --dry-run
 ng g module feature-1 --spec --dry-run
 
-npm run build --platform=ios
+npm run build --platform=ios --prod
 ```
 
 
