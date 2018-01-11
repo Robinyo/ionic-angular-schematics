@@ -2,13 +2,23 @@
   "extends": "<%= sourcedir.split('/').map(x => '..').join('/') %>/tsconfig.json",
   "compilerOptions": {
     "outDir": "<%= sourcedir.split('/').map(x => '..').join('/') %>/out-tsc/spec",
-    "baseUrl": "./",
     "module": "commonjs",
     "target": "es5",
     "types": [
       "jasmine",
       "node"
-    ]
+    ],
+    "baseUrl": "../src",
+    "paths": {
+      "@app/*": [ "app/*" ],
+      "@assets/*": [ "assets/*" ],
+      "@core/*": [ "app/core/*" ],
+      "@env": [ "environments/environment" ],
+      "@pages/*": [ "app/pages/*" ],
+      "@shared/*": [ "app/shared/*" ],
+      "@tests/*": [ "./*" ],
+      "@theme/*": [ "theme/*" ]
+    }
   },
   "files": [
     "test.ts"

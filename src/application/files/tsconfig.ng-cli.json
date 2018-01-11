@@ -6,8 +6,10 @@
     "paths": {
       "@app/*": [ "app/*" ],
       "@assets/*": [ "assets/*" ],
+      "@core/*": [ "app/core/*" ],
+      "@env": [ "environments/environment" ],
       "@pages/*": [ "app/pages/*" ],
-      "@services/*": [ "app/services/*" ],
+      "@shared/*": [ "app/shared/*" ],
       "@tests/*": [ "./*" ],
       "@theme/*": [ "theme/*" ]
     },
@@ -21,8 +23,8 @@
       "node_modules/@types"
     ],
     "lib": [
-      "dom",
-      "es2015"
+      "es2015",
+      "dom"
     ]
   }
 }

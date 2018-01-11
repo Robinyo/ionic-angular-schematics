@@ -1,11 +1,12 @@
 # How to Publish @ionic-angular/schematics
 
-There are two `README.md` files:
+There are three `README.md` files:
 - `./README.md`
 - `src/README.md`
 
 The copy in `./` is used by GitHub.
 The copy in `src/` is used by https://www.npmjs.com
+The copy in `src/application/files/` used by the generator (refers to a version number)
 
 There are three `package.json` files:
 - `./package.json`

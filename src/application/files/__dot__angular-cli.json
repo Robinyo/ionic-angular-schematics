@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "<%= utils.camelize(name) %>"
+    "name": "MyApp"
   },
   "apps": [
     {
@@ -24,8 +24,8 @@
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
+        "dev": "environments/environment.dev.ts",
+        "prod": "environments/environment.ts"
       }<% if (serviceWorker) { %>,
       "serviceWorker": true<% } %>
     }
@@ -53,6 +53,15 @@
     "karma": {
       "config": "./karma.conf.js"
     }
+  },
+  "codeCoverage": {
+    "exclude": [
+      "src/polyfills.ts",
+      "src/test.ts",
+      "src/mocks.ts",
+      "**/*.mock.ts",
+      "**/node_modules/**"
+    ]
   },
   "defaults": {
     "schematics": {
