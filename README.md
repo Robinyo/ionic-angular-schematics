@@ -6,8 +6,8 @@
 
 * [Goals](#goals)
 * [Installation](#installation)
-* [Generating a new Ionic Project](#generating-and-serving-an-ionic-project)
-* [Generating Components](#generating-components)
+* [Generating a new Project](#generating-a-new-project)
+* [Generating Components, Directives, Modules, Pages, Pipes and Services](#generating-components-directives-modules-pages-pipe-and-services)
 
 ## Goals
 - A standardised Ionic project structure aligned with the Angular style guide's:
@@ -94,8 +94,8 @@
 - [X] [Environment specific configuration](https://github.com/Robinyo/big-top#aliases-and-environment-specific-variables)
 - [X] [Dynamic Themes](https://robferguson.org/blog/2017/11/12/theming-your-ionic-3-app/)
 - [X] [Logging](https://robferguson.org/blog/2017/09/09/a-simple-logging-service-for-angular-4/)
-- [Unit and E2E Testing](https://robferguson.org/blog/2017/11/28/testing-your-ionic-3-app/)
-- Baked in best practices that have been discovered by the community over time
+- [X] [Unit and E2E Testing](https://robferguson.org/blog/2017/11/28/testing-your-ionic-3-app/)
+- [X] Baked in best practices that have been discovered by the community over time
 
 **Note:** See this [post](http://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/) re Shared Feature Module (Shared Common Modules) v Encapsulated Modules.
 
@@ -171,7 +171,7 @@ You also need to add the Angular CLI to your project's `devDependencies`:
 npm install @angular/cli@latest --save-dev
 ```
 
-### Generating and serving an Ionic project
+### Generating a new project
  
 You can use the `ng new` command to generate a new Ionic project:
 
@@ -198,7 +198,7 @@ npm install
 ionic serve
 ```
 
-### Generating Components
+### Generating Components, Directives, Modules, Pages, Pipes and Services
 
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 

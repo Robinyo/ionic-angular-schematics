@@ -19,11 +19,11 @@ export class HomePage implements OnInit, OnDestroy {
               private logger: LoggerService) {
 
   }
-  
+
   public ngOnInit() {
     this.logger.info('HomePage: ngOnInit()');
   }
-  
+
   public ngOnDestroy() {
     this.logger.info('HomePage: ngOnDestroy()');
   }

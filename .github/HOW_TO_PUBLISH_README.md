@@ -21,7 +21,7 @@ You also need to update the `@ionic/app-scripts` devDependencies, in
 
 ```json
   "devDependencies": {
-    "@ionic-angular/schematics": "^1.0.0",
+    "@ionic-angular/schematics": "^1.1.1",
   }
 ```
 
@@ -44,6 +44,7 @@ git commit -m "Added Shared Module support"
 git commit -m "Added generate Module support"
 git commit -m "Added generate Service support"
 git commit -m "Fixed webpack config issue"
+git commit -m "Added Unit Testing and End-to-End Testing support"
 git push -u origin master
 ```
 

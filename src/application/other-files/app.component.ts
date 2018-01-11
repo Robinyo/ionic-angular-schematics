@@ -12,14 +12,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { LoggerService } from '@core/logger/logger.service';
 
-let isDebugMode = ENV.isDebugMode;
+const isDebugMode = ENV.isDebugMode;
 
 @Component({
   templateUrl: 'app.component.html'
 })
 export class MyApp {
 
-  public rootPage:any = 'HomePage';
+  public rootPage: any = 'HomePage';
 
   public theme: String = 'facebook-messenger-theme';
 

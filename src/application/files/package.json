@@ -63,7 +63,7 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.2",
-    "@ionic-angular/schematics": "^1.1.0",
+    "@ionic-angular/schematics": "^1.1.1",
     "@ionic/app-scripts": "^3.1.7"
   },
   "config": {
