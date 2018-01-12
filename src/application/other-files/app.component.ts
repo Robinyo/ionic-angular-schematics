@@ -17,7 +17,7 @@ const isDebugMode = ENV.isDebugMode;
 @Component({
   templateUrl: 'app.component.html'
 })
-export class MyApp {
+export class MyAppComponent {
 
   public rootPage: any = 'HomePage';
 

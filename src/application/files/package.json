@@ -44,9 +44,11 @@
     "zone.js": "0.8.18"
   },
   "devDependencies": {
-    "@angular/cli": "1.6.3",
+    "@angular/cli": "^1.6.4",
     "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^5.0.0",
+    "@ionic-angular/schematics": "^1.1.2",
+    "@ionic/app-scripts": "^3.1.7",
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
@@ -62,9 +64,7 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
-    "typescript": "~2.4.2",
-    "@ionic-angular/schematics": "^1.1.1",
-    "@ionic/app-scripts": "^3.1.7"
+    "typescript": "~2.4.2"
   },
   "config": {
     "ionic_source_map_type": "source-map",

@@ -5,20 +5,20 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
-import { MyApp } from '@app/app.component';
+import { MyAppComponent } from '@app/app.component';
 import { CoreModule } from '@core/core.module';
 
 @NgModule({
-  declarations: [MyApp],
+  declarations: [MyAppComponent],
   imports: [
     BrowserModule,
     CoreModule,
-    IonicModule.forRoot(MyApp, {
+    IonicModule.forRoot(MyAppComponent, {
       preloadModules: true
     })
   ],
   bootstrap: [IonicApp],
-  entryComponents: [MyApp],
+  entryComponents: [MyAppComponent],
   providers: [
     StatusBar,
     SplashScreen,
