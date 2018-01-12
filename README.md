@@ -7,7 +7,7 @@
 * [Goals](#goals)
 * [Installation](#installation)
 * [Generating a new Project](#generating-a-new-project)
-* [Generating Components, Directives, Modules, Pages, Pipes and Services](#generating-components-directives-modules-pages-pipe-and-services)
+* [Generating Components, Directives, Modules, Pages, Pipes and Services](#generating-components)
 
 ## Goals
 - A standardised Ionic project structure aligned with the Angular style guide's:
@@ -80,7 +80,7 @@
         ├── tslint.json             
 ```
 
-- [Code scaffolding](#generating-components-directives-modules-pages-pipe-and-services)
+- [Code scaffolding](#generating-components)
   - [X] Application
   - [X] Component
   - [X] Directive
@@ -198,7 +198,7 @@ npm install
 ionic serve
 ```
 
-### Generating Components, Directives, Modules, Pages, Pipes and Services
+### Generating Components
 
 You can use the `ng generate` (or just `ng g`) command to generate Ionic pages:
 
