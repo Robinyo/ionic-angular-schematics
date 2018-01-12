@@ -21,7 +21,7 @@ You also need to update the `@ionic/app-scripts` devDependencies, in
 
 ```json
   "devDependencies": {
-    "@ionic-angular/schematics": "^1.1.2",
+    "@ionic-angular/schematics": "^1.1.3",
   }
 ```
 
@@ -68,6 +68,7 @@ npm install -g @ionic-angular/schematics
 cd /usr/local/lib/node_modules/@angular/cli/node_modules
 mkdir @ionic-angular
 cp -R /usr/local/lib/node_modules/@ionic-angular/* @ionic-angular/
+```
 
 To define a default collection (globally):
 
