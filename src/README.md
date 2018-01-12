@@ -80,7 +80,7 @@
         ├── tslint.json             
 ```
 
-- [Code scaffolding](#generating-pages-and-services)
+- [Code scaffolding](#generating-components-directives-modules-pages-pipe-and-services)
   - [X] Application
   - [X] Component
   - [X] Directive
@@ -155,6 +155,12 @@ To add @ionic-angular/schematics to a project using npm:
 npm install @ionic-angular/schematics@latest --save-dev
 ```
 
+You also need to add the Angular CLI to your project's `devDependencies`:
+
+```bash
+npm install @angular/cli@latest --save-dev
+```
+
 The set @ionic-angular/schematics as the default collection update your project's `.angular-cli.json`:
 
 ```json
@@ -163,12 +169,6 @@ The set @ionic-angular/schematics as the default collection update your project'
     "collection": "@ionic-angular/schematics"
   }
 }
-```
-
-You also need to add the Angular CLI to your project's `devDependencies`:
-
-```bash
-npm install @angular/cli@latest --save-dev
 ```
 
 ### Generating a new project
