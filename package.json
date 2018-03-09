@@ -1,6 +1,6 @@
 {
   "name": "@ionic-angular/schematics",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Schematics for Ionic Angular",
   "license": "MIT",
   "author": {
@@ -25,18 +25,18 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "@angular-devkit/schematics": "^0.0.42"
+    "@angular-devkit/schematics": "^0.4.5"
   },
   "devDependencies": {
-    "@angular/core": "5.0.3",
-    "@angular-devkit/core": "^0.0.22",
-    "@schematics/schematics": "0.0.11",
-    "@types/jasmine": "^2.6.0",
-    "@types/node": "^8.0.31",
-    "ionic-angular": "3.9.2",
-    "jasmine": "^2.8.0",
+    "@angular-devkit/core": "^0.4.5",
+    "@angular/core": "^5.2.8",
+    "@schematics/schematics": "^0.4.5",
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^9.4.7",
+    "ionic-angular": "^3.9.2",
+    "jasmine": "^3.1.0",
     "rxjs": "^5.5.6",
-    "typescript": "^2.5.2",
-    "zone.js": "0.8.19"
+    "typescript": "^2.7.2",
+    "zone.js": "^0.8.20"
   }
 }
