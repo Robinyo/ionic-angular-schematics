@@ -45,6 +45,7 @@ git commit -m "Added generate Module support"
 git commit -m "Added generate Service support"
 git commit -m "Fixed webpack config issue"
 git commit -m "Added Unit Testing and End-to-End Testing support"
+git commit -m "Updated the project's dependencies"
 git push -u origin master
 ```
 
@@ -79,6 +80,7 @@ ng set defaults.schematics.collection @ionic-angular/schematics --global
 Try:
 
 ```bash
+cd ..
 ng new my-app
 cd my-app
 ionic serve --platform=ios

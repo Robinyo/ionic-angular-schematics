@@ -49,3 +49,80 @@ npm install zone.js --save-dev
     "typescript": "^2.7.2",
     "zone.js": "^0.8.20"
   }
+
+ng set defaults.schematics.collection @ionic-angular/schematics --global
+Unable to find "@angular/cli" in devDependencies.
+
+Please take the following steps to avoid issues:
+"npm install --save-dev @angular/cli@latest"
+
+npm install --save-dev @angular/cli@latest
+
+npm WARN @ionic-angular/schematics@1.1.4 requires a peer of @angular-devkit/schematics@^0.4.5 but none is installed. You must install peer dependencies yourself.
+npm WARN @schematics/schematics@0.4.5 requires a peer of @angular-devkit/schematics@0.4.5 but none is installed. You must install peer dependencies yourself.
+npm WARN @schematics/package-update@0.3.2 requires a peer of @angular-devkit/core@0.3.2 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular-devkit/schematics@0.3.2 requires a peer of @angular-devkit/core@0.3.2 but none is installed. You must install peer dependencies yourself.
+npm WARN @schematics/angular@0.3.2 requires a peer of @angular-devkit/core@0.3.2 but none is installed. You must install peer dependencies yourself.
+npm WARN ajv-keywords@3.1.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
+
+npm install -g @angular-devkit/core
+npm install -g @angular-devkit/schematics
+npm install -g @schematics/schematics
+npm install -g rxjs
+
+cd ..
+ng new my-app
+
+npm WARN @angular/animations@5.2.8 requires a peer of @angular/core@5.2.8 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/compiler-cli@5.2.8 requires a peer of @angular/compiler@5.2.8 but none is installed. You must install peer dependencies yourself.
+npm WARN @ionic-angular/schematics@1.1.4 requires a peer of @angular-devkit/schematics@^0.0.42 but none is installed. You must install peer dependencies yourself.
+
+cd my-app
+ionic serve --platform=ios
+
+https://webdesign.tutsplus.com/articles/understanding-variable-scope-in-sass--cms-23498
+
+@angular-devkit/schematics@^0.0.42
+
+npm install <package>@<version>
+
+@angular-devkit/schematics@0.0.42
+
+npm install -g @angular-devkit/schematics@0.0.42
+
+npm install -g @angular/cli
+
+npm ERR! peer dep missing: @angular-devkit/schematics@0.4.6, required by @schematics/schematics@0.4.6
+npm ERR! peer dep missing: @angular-devkit/schematics@^0.0.42, required by @ionic-angular/schematics@1.1.4
+
+--
+
+npm uninstall -g @angular-devkit
+
+
+  "peerDependencies": {
+    "@angular-devkit/schematics": "^0.4.5"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "^0.4.5",
+    "@angular/cli": "^1.7.3",
+    "@angular/core": "^5.2.8",
+    "@schematics/schematics": "^0.4.5",
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^9.4.7",
+    "ionic-angular": "^3.9.2",
+    "jasmine": "^3.1.0",
+    "rxjs": "^5.5.6",
+    "typescript": "^2.7.2",
+    "zone.js": "^0.8.20"
+  }
+
+  npm install -g @angular-devkit/core@0.4.5
+  npm install -g @angular-devkit/schematics@0.4.5
+  npm install -g @schematics/schematics@0.4.5
+  npm install -g rxjs@5.5.6
+  // npm install -g @angular/cli
+
+npm install -g @angular/cli
+
+npm list -g --depth=0

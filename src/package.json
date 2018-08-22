@@ -21,7 +21,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "@angular-devkit/schematics": "^0.0.42"
+    "@angular-devkit/schematics": "^0.4.5"
   },
   "devDependencies": {},
   "keywords": [
