@@ -114,7 +114,7 @@ npm install -g rxjs@5.5.6@1.7.3
 
 Install the Angular CLI globally using npm:
 ```bash
-npm install -g @angular/cli
+npm install -g @angular/cli@1.7.3
 ```
 
 ### Install @ionic-angular/schematics
