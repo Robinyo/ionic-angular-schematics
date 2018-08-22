@@ -10,7 +10,7 @@
 * [Generating Components, Directives, Modules, Pages, Pipes and Services](#generating-components)
 
 ## Goals
-- A standardised Ionic project structure aligned with the Angular style guide's:
+- A standardised **Ionic 3** project structure aligned with the Angular style guide's:
   - [X] [Overall structural guidelines](https://angular.io/guide/styleguide#overall-structural-guidelines)
   - [X] [Folders-by-feature structure](https://angular.io/guide/styleguide#folders-by-feature-structure)  
   - [X] [App Module](https://angular.io/guide/styleguide#app-root-module)
@@ -106,10 +106,10 @@
 Install Schematics globally using npm:
 
 ```bash
-npm install -g @angular-devkit/core
-npm install -g @angular-devkit/schematics
-npm install -g @schematics/schematics
-npm install -g rxjs
+npm install -g @angular-devkit/core@0.4.5
+npm install -g @angular-devkit/schematics@0.4.5
+npm install -g @schematics/schematics@0.4.5
+npm install -g rxjs@5.5.6@1.7.3
 ```
 
 Install the Angular CLI globally using npm:
