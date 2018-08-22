@@ -46,6 +46,7 @@ git commit -m "Added generate Service support"
 git commit -m "Fixed webpack config issue"
 git commit -m "Added Unit Testing and End-to-End Testing support"
 git commit -m "Updated the project's dependencies"
+git commit -m "Moved the LICENSE file to the project's root directory"
 git push -u origin master
 ```
 
